@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Password Generator <i class="fas fa-key"></i></h1>
+        <input type="text" id="password" class="form-control mt-3" readonly>
+        <button id="generate" class="btn btn-primary mt-3">
+            Generate Password <i class="fas fa-random"></i>
+        </button>
+        <div class="mt-3">
+            <label for="length">Password Length:</label>
+            <input type="number" id="length" class="form-control" value="12" min="1" max="20">
+        </div>
+        <!-- Placeholder for image -->
+        <div class="mt-3">
+            <img src="images/password.jpg" alt="Password Generation" class="img-fluid" /> <!-- Replace with actual image path -->
+        </div>
+    </div>
+    
+    <!-- Sound effect placeholder -->
+    <audio id="clickSound" src="sounds/click.wav"></audio> <!-- Replace with actual sound file path -->
+
+    <script src="script.js"></script>
+</body>
+</html>
